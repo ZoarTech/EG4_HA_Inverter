@@ -1,0 +1,2218 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="renderer" content="webkit">
+
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+	<script language="JavaScript">
+		
+		
+			var platform = 'EG4';
+		
+		
+		document.write('<style type="text/css">');
+		
+		document.write('.infoBlockImg {');
+		document.write('width: ' + (screen.width < 800 ? 64 : 84) + 'px;');
+		document.write('}');
+		
+		document.write('.infoTextBlock p.mainInfoText {');
+		document.write('font-size: ' + (screen.width < 800 ? 12 : 18) + 'px;');
+		document.write('}');
+		
+		document.write('.infoTextBlock p.mainInfoText strong {');
+		document.write('font-size: ' + (screen.width < 800 ? 16 : 22) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder {');
+		document.write('left: ' + (screen.width < 800 ? 60 : 60) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .pvTextHolder, #monitorHolder .flowChartHolder .pvParallelTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (395 - 86) : 395) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .pvTextHolder {');
+		document.write('left: ' + (395 - 86) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .acPvTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (475 - 86) : 475) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .acPvTextHolder {');
+		document.write('left: ' + (475 - 165) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder ._12kAcPvTextHolder, #monitorHolder .flowChartHolder .trip12kAcPvTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (475 - 86) : 475) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .epsTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (385 - 86) : 377) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .epsTextHolder {');
+		document.write('left: ' + (375 - 86) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .epsPhase3TextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (385 - 86) : 377) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .epsLnTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (385 - 86) : 377) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .consumptionTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (665 - 160) : 665) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .consumptionTextHolder {');
+		document.write('left: ' + (665 - 160) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .consumptionPhase3TextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (665 - 160) : 665) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .gridTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (850 - 160) : 850) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .gridTextHolder {');
+		document.write('left: ' + (850 - 200) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .phase1ParallelGridTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (850 - 160) : 750) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .phase3ParallelGridTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (850 - 160) : 750) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .vacTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (850 - 160) : 850) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .facTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (850 - 160) : 850) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .vacTextHolder {');
+		document.write('left: ' + (850 - 200) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .facTextHolder {');
+		document.write('left: ' + (850 - 200) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .genDryContactTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (765 - 160) : 765) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .pvImg {');
+		document.write('left: ' + (screen.width < 800 ? (293 - 86) : 285) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .pvImg {');
+		document.write('left: ' + (293 - 86) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .inverterImg {');
+		document.write('left: ' + (screen.width < 800 ? (290 - 86) : 285) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .inverterImg {');
+		document.write('left: ' + (290 - 86) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .epsImg {');
+		document.write('left: ' + (screen.width < 800 ? (295 - 86) : 285) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .epsImg {');
+		document.write('left: ' + (295 - 86) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .consumptionImg {');
+		
+		
+			document.write('left: ' + (screen.width < 800 ? (570 - 160) : 570) + 'px;');
+		
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .consumptionImg {');
+		
+		
+			document.write('left: ' + (570 - 160) + 'px;');
+		
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .acPvImg {');
+		document.write('left: ' + (screen.width < 800 ? (575 - 160) : 575) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .acPvImg {');
+		document.write('left: ' + (575 - 160) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .gridImg {');
+		document.write('left: ' + (screen.width < 800 ? (765 - 160) : 765) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .gridImg {');
+		document.write('left: ' + (765 - 210) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .statusTextHolder {');
+		document.write('left: ' + (screen.width < 800 ? (720 - 60) : 720) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .statusTextHolder {');
+		document.write('left: ' + (720 - 60) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .ctrlBtnHolder, #monitorHolder .flowChartHolder .genQuickStartBtnHolder, #monitorHolder .flowChartHolder .batteryBackupModeBtnHolder {');
+		document.write('left: ' + (screen.width < 800 ? (810 - 160) : 810) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .ctrlBtnHolder {');
+		document.write('left: ' + (810 - 180) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .pvArrowImg, #monitorHolder .flowChartHolder .epsArrowImg {');
+		document.write('left: ' + (screen.width < 800 ? (328 - 86) : 328) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .pvArrowImg, #parallelMonitorHolder .flowChartHolder .epsArrowImg {');
+		document.write('left: ' + (328 - 86) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .loadArrowImg {');
+		document.write('left: ' + (screen.width < 800 ? (602 - 160) : 602) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .loadArrowImg {');
+		document.write('left: ' + (602 - 160) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .acPvArrowImg {');
+		document.write('left: ' + (screen.width < 800 ? (602 - 160) : 602) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .acPvArrowImg {');
+		document.write('left: ' + (602 - 160) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .inverterArrayImg1 {');
+		document.write('left: ' + (screen.width < 800 ? (380 - 86) : 380) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .inverterArrayImg2 {');
+		document.write('left: ' + (screen.width < 800 ? (455 - 85) : 455) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .inverterArrayImg3 {');
+		document.write('left: ' + (screen.width < 800 ? (530 - 84) : 530) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .inverterArrayImg1 {');
+		document.write('left: ' + (380 - 86) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .inverterArrayImg2 {');
+		document.write('left: ' + (455 - 85) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .inverterArrayImg3 {');
+		document.write('left: ' + (530 - 84) + 'px;');
+		document.write('}');
+		
+		document.write('#monitorHolder .flowChartHolder .gridArrayImg1 {');
+		document.write('left: ' + (screen.width < 800 ? (605 - 160) : 605) + 'px;');
+		document.write('}');
+		document.write('#monitorHolder .flowChartHolder .gridArrayImg2 {');
+		document.write('left: ' + (screen.width < 800 ? (680 - 160) : 680) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .gridArrayImg1 {');
+		document.write('left: ' + (605 - 160) + 'px;');
+		document.write('}');
+		document.write('#parallelMonitorHolder .flowChartHolder .gridArrayImg2 {');
+		document.write('left: ' + (680 - 160) + 'px;');
+		document.write('}');
+		
+		document.write('#reductionContainer .reductionImgHolder {');
+		document.write('margin-left: ' + (screen.width < 800 ? 5 : 30) + 'px;');
+		document.write('}');
+		
+		if(screen.width < 800) {
+			document.write('#reductionContainer .reductionImgHolder img {');
+			document.write('width: 80px;');
+			document.write('}');
+		}
+		
+		document.write('#reductionContainer .reductionTextHolder {');
+		document.write('margin-left: ' + (screen.width < 800 ? 15 : 20) + 'px;');
+		document.write('margin-top: ' + (screen.width < 800 ? 10 : 16) + 'px;');
+		document.write('}');
+		
+		document.write('</style>');
+    </script>
+
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+	<link rel="shortcut icon" href="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/format/LOGO_32.png" />
+
+
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/lib/easyui/css/themes/bootstrap/easyui.css"/>
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/lib/easyui/css/themes/icon.css"/>
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/fonts/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/css/format/header.css?v=2.2.6.6"/>
+
+
+	<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/css/custom.css?v=2.2.6.6"/>
+
+
+
+<script src="https://resource.solarcloudsystem.com/WManage/web/lib/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="https://resource.solarcloudsystem.com/WManage/web/lib/moment/moment_20240403.min.js" type="text/javascript"></script>
+<script src="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://resource.solarcloudsystem.com/WManage/web/lib/easyui/js/jquery.easyui.min_1.4.5.js" type="text/javascript"></script>
+<!-- <script src="https://resource.solarcloudsystem.com/WManage/web/lib/easyui/js/locale/easyui-lang-zh_CN.js" type="text/javascript"></script> -->
+
+<script src="https://resource.solarcloudsystem.com/WManage/web/js/format/header.js?v=2.2.6.6" type="text/javascript"></script>
+
+<script language="JavaScript">
+	var userId = '1045'
+	var headerPlatform = 'EG4';
+
+	function formatDate(date) {
+		return moment(date).format("YYYY-MM-DD");
+	}
+	
+	$.fn.datebox.defaults.formatter = formatDate;
+	
+	var language = 'en';
+	var language4Datetimepicker = language.replace('_', '-');
+	
+	var baseUrl = '/WManage';
+	var resourceBaseUrl = 'https://resource.solarcloudsystem.com/WManage';
+	
+	
+		var isAdmin = false;
+	
+	
+	
+		var isMaintain = false;
+	
+	
+	
+		var isDevAccount = false;
+	
+	
+	
+	
+		var isEG4Admin = false;
+	
+	
+	
+	
+		var isOwnerLevel = false;
+	
+	
+	
+	
+	var gigabiz1User = false;
+	
+	
+	
+		var isSecondCluster = true;
+	
+	
+	
+	
+	
+		var isIndiaCluster = false;
+	
+	
+	var redisRunning = true;
+	
+	
+	
+		var isViewer = true;
+		var plantListUrl = baseUrl + '/web/config/plant/list/viewer';
+	
+	
+	var currentClusterId = 100;
+	
+	var serverTimezone = 0;
+	
+	var defaultLng = 114.062944;
+	var defaultLat = 22.550805;
+	
+	var noPermissionText = 'No permission';
+	
+	var successText = 'Success';
+	var failedText = 'Failed';
+	
+	var setSuccessText = 'Set successfully';
+	
+	var beforePageText = 'Page';
+	var afterPageText = 'of {pages}';
+	var displayMsg = 'Displaying {from} to {to} of {total} items';
+	
+	
+		var isEG4Platform = true;
+	
+	
+	
+	
+	
+		var isFortressPlatform = false;
+	
+	
+	
+	
+		var isGTECPlatform = false;
+	
+	
+	function notAllowSelect(index, row) {
+		return false;
+	}
+	
+	function defaultRowStyler(index, row) {
+		if(index % 2 == 1) {
+			return 'background: rgb(245, 252, 222);';
+		}
+	}
+	
+	function tableLostFormatter(value, row) {
+		if(value) {
+			return '<span style="color: gray">Lost</span>';
+		} else {
+			return '<span style="color: green">Connected</span>';
+		}
+	}
+	
+	function plantSearchNameFormatter(value, row) {
+		return value + (row.endUserAccount ? (' - ' + row.endUserAccount) : '') + (row.createDate ? (' - ' + row.createDate) : '');
+	}
+	
+	function deviceOverviewJumpFormatter(value, row) {
+		if(row && value) {
+			return '<a href="javascript:jumpDeviceOverview(' + row.plantId + ')">' + value + '</a>';
+		}
+    	return '';
+	}
+	
+	function jumpDeviceOverview(plantId) {
+    	$.post(baseUrl + '/api/userVisit/update', { plantId: (plantId ? plantId : -1) }, function(response) {
+			window.location.href = baseUrl + '/web/overview/plant?autoSelectPlant=true';
+		}, 'json');
+    }
+	
+	function inverterJumpSerialNumFormatter(value, row) {
+		return '<a href="javascript:jumpSerialNum(' + row.plantId + ', \'' + value + '\')">' + value + '</a>';
+	}
+	
+	function tableStatusFormatter(value, row) {
+		if(value) {
+			var imgElementHtml = '<img style="margin-right: 5px;" width="16" height="16" src="' + resourceBaseUrl + '/web/img/format/status/status_' + value + '.png" />';
+			switch(value) {
+			case 'offline':
+				return '<div>' + imgElementHtml + '<span style="position: relative; top: 2px;">Offline</span></div>';
+			case 'warning':
+				return '<div>' + imgElementHtml + '<span style="position: relative; top: 2px;">Notice</span></div>';
+			case 'error':
+				return '<div>' + imgElementHtml + '<span style="position: relative; top: 2px;">Error</span></div>';
+			case 'normal':
+				return '<div>' + imgElementHtml + '<span style="position: relative; top: 2px;">Normal</span></div>';
+			}
+		}
+		return '';
+	}
+	
+	function jumpSerialNum(plantId, serialNum) {
+		$.post(baseUrl + '/api/userVisit/update', { plantId: (plantId ? plantId : -1), serialNum: serialNum }, function(response) {
+			window.open(baseUrl + '/web/monitor/inverter', '_blank');
+		}, 'json');
+	}
+	
+	function booleanFormatter(value, row) {
+		if(typeof(value) == 'undefined') {
+			return '';
+		}
+		return value ? 'Yes' : 'No';
+	}
+	
+	function successFormatter(value, row) {
+		if(typeof(value) == 'undefined') {
+			return '';
+		}
+		if(value) {
+			return '<span style="color: green;">Success</span>';
+		} else {
+			return '<span style="color: red;">Failed</span>';
+		}
+	}
+	
+	function doneFormatter(value, row) {
+		if(typeof(value) == 'undefined') {
+			return '';
+		}
+		if(value) {
+			return '<span style="color: green;">Done</span>';
+		} else {
+			return 'Undone';
+		}
+	}
+	
+	function checkboxFormatter(value, row) {
+		return value ? '<input type="checkbox" disabled="disabeld" checked="checked"/>' : '<input type="checkbox" disabled="disabeld"/>';
+	}
+	
+	function tableMoneyFormatter(value, row) {
+		return toDecimal2(value / 100);
+	}
+	
+	function initTablePaginationI18n(tableId) {
+		var pagination = $(tableId).datagrid('getPager');
+		$(pagination).pagination({
+			beforePageText: beforePageText,
+			afterPageText: afterPageText,
+			displayMsg: displayMsg
+		});
+	}
+</script>
+
+	<style>
+		.popover{
+			z-index: 1000 !important;
+		}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/plugins/datepicker/bootstrap-datepicker3.standalone.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://resource.solarcloudsystem.com/WManage/web/css/monitor/inverter/inverter.css?v=2.2.6.6"/>
+	<link rel="stylesheet" type="text/css" href="https://resource.solarcloudsystem.com/WManage/web/css/monitor/inverter/chartDialog.css?v=2.2.6.6"/>
+
+	<script language="JavaScript">
+		var needCheckCluster = false;
+
+		var chargePowerLabel = 'Charge Power';
+		var dischargePowerLabel = 'Discharge Power';
+		var batteryPowerLabel = 'Battery Power';
+
+		var dayChartSeriesName = 'Time';
+		var solarPvLabel = 'Solar PV';
+		var gridLabel = 'Grid';
+		var batteryLabel = 'Battery';
+		var consumptionLabel = 'Consumption';
+
+		var lineChartTitle = 'Input&Output Power';
+		var solarProductionText = 'Solar Production';
+		var batteryDischargingText = 'Battery Discharged';
+		var export2GridText = 'Export to Grid';
+		var import2UserText = 'Import to User';
+		var consumptionText = 'Consumption';
+		var barBattChargeText = 'Battery Charged';
+		var acCoupleText = 'AC Couple';
+		var eGenDayText = 'AC couple/Generator';
+		var netEnergyText = 'Net Energy';
+		var importText = 'Import';
+		var exportText = 'Export';
+
+		var energyChartTtle = 'Energy Overview';
+		var energyAxisTitleY = 'Energy';
+		var monthChartSeriesName = 'Date';
+		var yearChartSeriesName = 'Month';
+		var totalChartSeriesName = 'Year';
+
+		var pvLoadTodayText = 'Load Today';
+		var pvChargeTodayText = 'Charge Today';
+		var pvExportTodayText = 'Export Today';
+
+		var pvLoadTotalText = 'Load Total';
+		var pvChargeTotalText = 'Charge Total';
+		var pvExportTotalText = 'Export Total';
+
+		var midboxAcCoupleText = 'PV Power';
+		var midboxSmartLoadText = 'Consumption Power';
+		var midboxNonUseText = 'Non-use';
+
+		var japanCustomerStyle = false;
+
+		var hasCustomPlatformImg = true;
+		var customPlatform = 'EG4';
+		
+		var href = window.location.href
+		if(href.indexOf('localhost') < 0 && href.indexOf('192.168') < 0 && href.indexOf('172.30') < 0 && href.indexOf('119.145.35.9') < 0 && href.indexOf('127.0.0.1') < 0 && document.location.protocol == 'http:') {
+			window.location = href.replace('http:', 'https:');
+		}
+
+		
+		
+			var platformUrl = 'web';
+		
+
+		var chartColors = {"Solar PV":"#5A9BD5","Battery":"#70AD46","Grid":"#F66867","Consumption":"#FFA461","SOC":"#800080","AC Couple":"#3B31F5"};
+		var energyChartColors = {"Solar Production":"#5A9BD5","Battery":"#70AD46","BattCharge":"#4026c6","Export to Grid":"#F66867","Import to User":"#996B1F","Consumption":"#FFA461","AC Couple":"#3B31F5","Net Energy":"#800000"};
+		$(function() {
+			$('#'+'STANDARD').prop('checked',true)
+		})
+	</script>
+
+    <title>Device Monitor - Monitor Center</title>
+</head>
+
+<body class="page-header-fixed">
+
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<link rel="stylesheet" href="https://resource.solarcloudsystem.com/WManage/web/css/format/headerMenu.css?v=2.2.6.6"/>
+
+
+	<style type="text/css">
+		.op-ebase-leftMenu .menuItem.level-leaf .nameWrapper {
+			padding-left: 30px;
+		}
+		
+		.op-ebase-leftMenu .menuItem.level-leaf.selected>.nameWrapper {
+			padding-left: 27px;
+		}
+	</style>
+
+
+<header style="z-index: 11000; box-shadow: 0 2px 4px rgba(0, 0, 0, .15); position: fixed; top: 0; width: 100%; height: 80px;">
+	<div style="height: 80px;">
+		
+		
+		
+		
+		
+		
+			<div class="topLeftLogoHolder">
+				<img id="companyLogoTopLeftImg" style="float: left; height: 42px!important;" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/format/companyLogo.png" />
+			</div>
+		
+		
+		
+		
+			<div class="ebase-frame-header-userTopBar" data-spm="userTopBar">
+				
+				
+				
+				
+					
+				
+				
+				<ul class="navbar-nav" style="margin-right: 16px;">
+					<li class="nav-item dropdown show">
+						<a class="nav-link dropdown-toggle text-muted waves-effect waves-dark ebase-frame-header-userLink" style="margin-left: 5px;" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							
+								
+									<i class="fa fa-language" aria-hidden="true" style="margin-right: 5px;"></i> English
+									<span class="caret" style="margin-left: 8px;"></span>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+						</a>
+						<div class="dropdown-menu ulBged dropdown-menu-right animated bounceInDown">
+							
+								<a class="dropdown-item" href="javascript:changeLocale('ENGLISH');">English</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('CHINESE');">简体中文</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('JAPANESE');">日本語</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('ITALIAN');">Italiano</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('SPANISH');">Español</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('GERMAN');">Deutsch</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('FRENCH');">Français</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('DUTCH');">Nederlands</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('PORTUGUESE');">Português</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('POLISH');">Polski</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('RUSSIA');">Россия</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('HEBREW');">עִבְרִית</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('UKRAINIAN');">Українська Мова</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('URDU');">اردو‎</a>
+							
+								<a class="dropdown-item" href="javascript:changeLocale('ARABIC');">اللغة العربية</a>
+							
+						</div>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown show">
+						<a class="nav-link dropdown-toggle text-muted waves-effect waves-dark ebase-frame-header-userLink" style="margin-left: 5px; font-size: 13px;" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+							gtomab@gmail.com<span class="caret" style="margin-left: 8px;"></span>
+						</a>
+						<div class="dropdown-menu ulBged dropdown-menu-right animated bounceInDown">
+							
+								<a class="dropdown-item" href="/WManage/web/system/user/center">User Center</a>
+							
+							
+								<a class="dropdown-item" href="/WManage/web/system/user/modifyPassword/1045">Modify password</a>
+							
+							
+							<a class="dropdown-item" href="/WManage/web/logout">
+								Logout
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		
+	</div>
+	
+	<div id="topMenuContainer" class="ebase-frame-header-root fixed-width" style="background-color: white;">
+		<section class="ebase-frame-header ebase-frame-header-top">
+			<div class="ebase-frame-header-inner">
+				<div style="height: 80px; display: inline-block; margin-left: 240px; position: fixed; top: 0;">
+					<div class="op-ebase-topMenu ebase-frame-header-topMenu" data-ebase="TopMenu" data-spm="TopMenu">
+						<ul class="menu-list clearfix">
+							<li class="item level-1 selected false menuNameLen4">
+								<a class="nameWrapper" href="/WManage/web/monitor/inverter">
+									<p style="margin: 11px 0 0 0;">
+										
+										
+											<img height="27" src="https://resource.solarcloudsystem.com/WManage/web/img/format/menu/icon_monitor_green.png" />
+										
+									</p>
+									<span class="name">Monitor</span>
+								</a>
+							</li>
+							<li class="item level-1 false menuNameLen4">
+								<a class="nameWrapper" href="/WManage/web/analyze/chart">
+									<p style="margin: 11px 0 0 0;">
+										
+										
+											<img height="27" src="https://resource.solarcloudsystem.com/WManage/web/img/format/menu/icon_history_record_green.png" />
+										
+									</p>
+									<span class="name">Data</span>
+								</a>
+							</li>
+							
+								<li class="item level-1 false menuNameLen4">
+									<a class="nameWrapper" href="/WManage/web/config/plant">
+										<p style="margin: 11px 0 0 0;">
+											<img height="27" src="https://resource.solarcloudsystem.com/WManage/web/img/format/menu/icon_plant_details_green.png" />
+										</p>
+										<span class="name">Configuration</span>
+									</a>
+								</li>
+							
+							<li class="item level-1 false menuNameLen4">
+								<a class="nameWrapper" href="/WManage/web/overview/global">
+									<p style="margin: 11px 0 0 0;">
+										<img height="27" src="https://resource.solarcloudsystem.com/WManage/web/img/format/menu/icon_overview_green.png" />
+									</p>
+									<span class="name">Overview</span>
+								</a>
+							</li>
+							
+								<li class="item level-1 false menuNameLen4">
+									<a class="nameWrapper" href="/WManage/web/maintain/remoteSet">
+										<p style="margin: 11px 0 0 0;">
+											<img height="27" src="https://resource.solarcloudsystem.com/WManage/web/img/format/menu/icon_maintain_green.png" />
+										</p>
+										<span class="name">Maintenance</span>
+									</a>
+								</li>
+							
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</header>
+
+<script language="JavaScript">
+	if(screen.width < 600) {
+		document.write('<style type="text/css">');
+		
+		document.write('body>header {');
+		document.write('height: 160px!important;');
+		document.write('}');
+		
+		document.write('.ebase-frame-header-userTopBar {');
+		document.write('padding-top: 80px!important;');
+		document.write('}');
+		
+		document.write('.page-container {');
+		document.write('padding-top: 160px!important;');
+		document.write('}');
+		
+		document.write('#nav > div {');
+		document.write('margin-top: 160px!important;');
+		document.write('}');
+		
+		document.write('</style>');
+	}
+	
+	var customCompany = '';
+	
+	function changeLocale(language) {
+		$.post(baseUrl + '/locale', { language: language }, function(response) {
+			window.location.reload();
+		});
+	}
+
+/*	$('.op-ebase-topMenu .menu-list .item').hover(
+		function() {
+			if(!$(this).hasClass('selected')) {
+				var $img = $(this).find('img');
+				$img.attr('src', $img.attr('src').replace('gray', 'green'));
+			}
+		},
+		function() {
+			if(!$(this).hasClass('selected')) {
+				var $img = $(this).find('img');
+				$img.attr('src', $img.attr('src').replace('green', 'gray'));
+			}
+		}
+	);	*/
+	
+	function goToCluster(clusterId, clusterPrefixUrl) {
+		$.post(baseUrl + '/web/system/cluster/buildClusterKey', { serverClusterId: clusterId }, function(response) {
+			if(response.success) {
+				var sslClusterPrefixUrl = clusterPrefixUrl.replace('http://', 'https://');
+				var href = window.location.href;
+				var index = href.indexOf('/WManage');
+				if(index > 0) {
+					window.location.href = sslClusterPrefixUrl + '/WManage/web/login/clusterLoginForward?clusterLoginKey=' + response.clusterLoginKey + '&targetUrl=' + href.substring(index) + '&customCompany=' + customCompany;
+				}
+			}
+		}, 'json');
+	}
+</script>
+
+	<div class="page-container hasInvertImg" style="margin-left: 0; padding-left: 10px; padding-right: 10px; background-color: #f2f7f8;">
+
+		<!-- Page Content Part -->
+			<div id="pageToolHolder" class="menuContent" style="padding: 8px; height: 46px; width: 100%; background-color: white; margin-bottom: 15px; position: fixed; z-index: 1040; border-bottom: 1px solid #AAA;">
+				
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style type="text/css">
+	.combo-p .combo-panel {
+		padding: 0;
+	}
+</style>
+
+<div class="checkbox" style="float: left; margin: 5px 10px 0 0;">
+	<label>
+		<input type="checkbox" id="selectPlantFirstCheckbox" checked="checked"> Select station first
+	</label>
+</div>
+
+<div id="plantSearchHolder" class="deviceSearchModuleSelectHolder" style="float: left; margin-top: 4px; margin-right: 15px;">
+	<input id="plantSearchInput" style="width: 150px;"></input>
+</div>
+
+<div class="deviceSearchModuleSelectHolder" style="float: left; margin-top: 4px; margin-right: 15px;">
+	<input id="inverterSearchInput" style="width: 150px;"></input>
+</div>
+
+<script language="JavaScript">
+	var userVisitRecordPlantId = '1111';
+	var userVisitRecordSerialNum = '3393741158';
+
+	var selectPlantId = -1;
+	var selectPlantName = '';
+
+	var currentModuleInverterSn = '';
+	var currentDatalogSn = '';
+	var currentProtocolVersion = -1;
+	var currentPhase = 1;
+	var currentDeviceType = -1;
+	var currentSubDeviceType = -1;
+	var currentPowerRating = -1;
+	var currentDtc = -1;
+	var currentMachineType = -1;
+	var currentMeterType = -1;
+	var currentParallelEnabled = false;
+	var currentMasterOrSlaveNotOffGrid = -1;
+	var currentComposedPhaseNotOffGrid = -1;
+
+	var currentStandard = '';
+	var currentSlaveVersion = -1;
+	var currentFwVersion = -1;
+	var currentHardwareVersion = -1;
+
+	var currentBatteryType = '';
+	var currentWithbatteryData = false;
+
+	var currentBindTigoInfo = false;
+	var currentBindPhnixInfo = false;
+	var currentBindChargePoint = false;
+
+	var currentAllowExport2Grid = false;
+	var currentSetG98Already = false;
+
+	var currentShowAutoParallelButton = false;
+	
+	var firstLoad = false
+	
+		firstLoad = true
+		
+		currentModuleInverterSn = '3393741158';
+		currentDatalogSn = 'BG32604354';
+		currentProtocolVersion = '5';
+		currentPhase = 1;
+		currentDeviceType = 3
+		currentSubDeviceType = 131;
+		currentPowerRating = 6;
+		currentDtc = 1;
+		currentMachineType = 0;
+		currentMeterType = 0;
+		currentParallelEnabled = false;
+		currentMasterOrSlaveNotOffGrid = 0;
+		currentComposedPhaseNotOffGrid = 1;
+		currentStandard = 'ccaa';
+		currentSlaveVersion = 13;
+		currentFwVersion = 14;
+		currentHardwareVersion = 2;
+		currentBatteryType = 'LITHIUM';
+		currentWithbatteryData = false;
+		currentBindTigoInfo = false;
+		currentBindPhnixInfo = false;
+	    currentBindChargePoint = false;
+		currentAllowExport2Grid = true;
+		currentSetG98Already = false;
+	
+	
+	$(document).ready(function () {
+		if (typeof (initPageWhenReady) == "function") {
+			initPageWhenReady();
+		}
+		
+		
+			if(firstLoad) {
+				refreshUserVisitRecordAndNotice('3393741158', 1111);
+			}
+		
+		
+		$('#selectPlantFirstCheckbox').change(function () {
+			if ($('#selectPlantFirstCheckbox').is(':checked')) {
+				$('#plantSearchHolder').fadeIn(refreshPlantComboAndChart);
+			} else {
+				$('#plantSearchHolder').fadeOut(refreshInverterComboAndChart);
+			}
+		});
+
+		function refreshPlantComboAndChart() {
+			firstPlantSearchSuccess = true;
+			firstInverterSearchSuccess = true;
+			$('#plantSearchInput').combogrid('setValue', '');
+			$('#plantSearchInput').combogrid('grid').datagrid('load');
+		}
+
+		var firstPlantSearchSuccess = true;
+		var plantSearchTextBeforeLoad = '';
+		$('#plantSearchInput').combogrid({
+			panelWidth: 530,
+			url: plantListUrl,
+			idField: 'id',
+			textField: 'name',
+			mode: 'remote',
+			fitColumns: true,
+			pagination: true,
+			pageSize: 20,
+			onBeforeLoad: function (param) {
+				plantSearchTextBeforeLoad = $('#plantSearchInput').combogrid('getText');
+				param.searchText = plantSearchTextBeforeLoad;
+				param.targetPlantId = userVisitRecordPlantId;
+			},
+			onSelect: function (index, row) {
+				selectPlantId = row.id;
+				selectPlantName = row.name;
+
+				if (typeof (onPlantChanged) == "function") {
+					onPlantChanged(selectPlantId, selectPlantName);
+				}
+
+				if (firstPlantSearchSuccess) {
+					firstPlantSearchSuccess = false;
+				} else {
+					refreshInverterComboAndChart();
+				}
+			},
+			onLoadSuccess: function (data) {
+				$('#plantSearchInput').combogrid('setText', plantSearchTextBeforeLoad)
+				if (firstPlantSearchSuccess) {
+					if (data.total > 0) {
+						var plantSearchGrid = $('#plantSearchInput').combogrid('grid');
+						plantSearchGrid.datagrid('selectRecord', data.rows[0].id);
+					} else {
+						firstPlantSearchSuccess = false;
+					}
+
+					initInverterSearchInput();
+				}
+			},
+			columns: [[
+				{
+					field: 'name',
+					title: 'Station name',
+					formatter: plantSearchNameFormatter,
+					width: 80
+				}
+			]]
+		});
+
+		function refreshInverterComboAndChart() {
+			firstInverterSearchSuccess = true;
+			$('#inverterSearchInput').combogrid('setValue', '');
+			$('#inverterSearchInput').combogrid('grid').datagrid('load');
+		}
+
+		var firstInverterSearchSuccess = true;
+
+		function initInverterSearchInput() {
+			$('#inverterSearchInput').combogrid({
+				panelWidth: 530,
+				url: baseUrl + '/web/config/inverter/list',
+				idField: 'serialNum',
+				textField: 'serialNum',
+				mode: 'remote',
+				fitColumns: true,
+				pagination: true,
+				pageSize: 20,
+				onBeforeLoad: function (param) {
+					if ($('#selectPlantFirstCheckbox').is(':checked')) {
+						var plantSearchGridSelected = $('#plantSearchInput').combogrid('grid').datagrid('getSelected');
+						if (!plantSearchGridSelected) {
+							return false;
+						}
+						param.plantId = plantSearchGridSelected.id;
+					}
+					param.searchText = $('#inverterSearchInput').combogrid('getValue');
+					param.targetSerialNum = userVisitRecordSerialNum;
+				},
+				onSelect: function (index, row) {
+					currentModuleInverterSn = row.serialNum;
+					currentDatalogSn = row.datalogSn;
+					currentProtocolVersion = row.protocolVersion;
+					currentPhase = row.phase;
+					currentDeviceType = row.deviceType;
+					currentSubDeviceType = row.subDeviceType
+					currentPowerRating = row.powerRating;
+					currentDtc = row.dtc;
+					currentMachineType = row.machineType;
+					currentMeterType = row.meterType;
+					currentParallelEnabled = row.parallelEnabled;
+					currentMasterOrSlaveNotOffGrid = (currentParallelEnabled ? row.masterOrSlave : -1);
+					currentComposedPhaseNotOffGrid = (currentParallelEnabled ? row.composedPhase : -1);
+					currentStandard = row.standard;
+					currentSlaveVersion = row.slaveVersion;
+					currentFwVersion = row.fwVersion;
+					currentHardwareVersion = row.hardwareVersion
+					currentBatteryType = row.batteryType;
+					currentWithbatteryData = row.withbatteryData;
+					currentBindTigoInfo = row.bindTigoInfo
+					currentBindPhnixInfo = row.bindPhnixInfo
+					currentBindChargePoint = row.bindChargePoint
+					currentAllowExport2Grid = row.allowExport2Grid
+					currentSetG98Already = row.setG98Already
+					
+					var plantId = -1;
+					if ($('#selectPlantFirstCheckbox').is(':checked')) {
+						var plantSearchGridSelected = $('#plantSearchInput').combogrid('grid').datagrid('getSelected');
+						if (plantSearchGridSelected) {
+							plantId = plantSearchGridSelected.id;
+						}
+					}
+					refreshUserVisitRecordAndNotice(row.serialNum, plantId);
+				},
+				onLoadSuccess: function (data) {
+					currentShowAutoParallelButton = data.showAutoParallelButton;
+					if(currentShowAutoParallelButton && typeof hideAutoParallelButton == 'function') {
+						$('#autoParallelButton').fadeIn();
+						setTimeout(hideAutoParallelButton, 30000);
+					}
+					if (firstInverterSearchSuccess) {
+						firstInverterSearchSuccess = false;
+						$('#inverterSearchInput').combogrid('setValue', data.total > 0 ? data.rows[0].serialNum : '');
+
+						var backupModuleInverterSn = currentModuleInverterSn;
+						
+						if (data.total > 0) {
+							currentModuleInverterSn = data.rows[0].serialNum;
+							currentDatalogSn = data.rows[0].datalogSn;
+							currentProtocolVersion = data.rows[0].protocolVersion;
+							currentPhase = data.rows[0].phase;
+							currentDeviceType = data.rows[0].deviceType;
+							currentSubDeviceType = data.rows[0].subDeviceType;
+							currentPowerRating = data.rows[0].powerRating;
+							currentDtc = data.rows[0].dtc;
+							currentMachineType = data.rows[0].machineType;
+							currentMeterType = data.rows[0].meterType;
+							currentParallelEnabled = data.rows[0].parallelEnabled;
+							currentMasterOrSlaveNotOffGrid = (currentParallelEnabled ? data.rows[0].masterOrSlave : -1);
+							currentComposedPhaseNotOffGrid = (currentParallelEnabled ? data.rows[0].composedPhase : -1);
+							currentStandard = data.rows[0].standard;
+							currentSlaveVersion = data.rows[0].slaveVersion;
+							currentFwVersion = data.rows[0].fwVersion;
+							currentHardwareVersion = data.rows[0].hardwareVersion;
+							currentBatteryType = data.rows[0].batteryType;
+							currentWithbatteryData = data.rows[0].withbatteryData;
+							currentBindTigoInfo = data.rows[0].bindTigoInfo
+							currentBindPhnixInfo = data.rows[0].bindPhnixInfo
+							currentBindChargePoint = data.rows[0].bindChargePoint
+							currentAllowExport2Grid = data.rows[0].allowExport2Grid
+							currentSetG98Already = data.rows[0].setG98Already
+						}
+
+						//Update visit record
+						var plantId = -1;
+						if ($('#selectPlantFirstCheckbox').is(':checked')) {
+							var plantSearchGridSelected = $('#plantSearchInput').combogrid('grid').datagrid('getSelected');
+							if (plantSearchGridSelected) {
+								plantId = plantSearchGridSelected.id;
+							}
+						}
+						
+						if (!firstLoad || (backupModuleInverterSn != data.rows[0].serialNum)) {
+							isInit = false;
+							refreshUserVisitRecordAndNotice(data.total > 0 ? data.rows[0].serialNum : '', plantId);
+						} else {
+							firstLoad = false
+						}
+					}
+				},
+				columns: [[
+					{field: 'serialNum', title: 'Serial number', width: 80}
+				]]
+			});
+		}
+	});
+
+	let isInit = true
+	var inverterImgSrc = '';
+	var parallelInverterImgPath = '';
+	var platform = '';
+
+	async function refreshUserVisitRecordAndNotice(serialNum, plantId) {
+		userVisitRecordPlantId = plantId;
+		userVisitRecordSerialNum = serialNum;
+		
+		if(!isInit) {
+			await new Promise((resolve) => {
+				$.post(baseUrl + '/api/userVisit/update', {plantId: plantId, serialNum: serialNum}, function (response) {
+					if (response.success) {
+						userVisitRecordPlantId = response.plantId;
+						resolve(true)
+						if (typeof (onDeviceChangedDone) == "function") {
+							onDeviceChangedDone(serialNum);
+						}
+					}
+				}, 'json');
+			})
+		} else {
+			isInit = false
+		}
+
+		var needInverterImg = $('.hasInvertImg .inverterImg').length
+		if (needInverterImg) {
+			inverterImgSrc = false;
+			let defaultValue = false
+			var hasCustomPlatformImg = true;
+			let customPlatform = 'EG4';
+			if (hasCustomPlatformImg) {
+				var monitorDirPath = '/web/platform/' + customPlatform + '/img/monitor/plant/deviceIcon/';
+			} else {
+				var monitorDirPath = '/web/img/monitor/plant/deviceIcon/';
+			}
+			platform = 'EG4'
+			var minusFlexBossImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_minus_flex_boss.png' : 'icon_minus_flex_boss_mid.png');
+			var acChargerImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_ac_charger.png' : 'icon_ac_charger_mid.png');
+			var offGridInverterImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'inverter_off_grid_20231003.png' : 'inverter_off_grid_mid.png');
+			var offGridUsInverterImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_sna_us_6k_20231004.png' : 'icon_sna_us_6k_mid.png');
+			var sna6000UsAioImagePath = monitorDirPath + 'icon_sna_6000_us_aio.png';
+			var ecoBeast6000ImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_eco_beast_6000.jpg' : 'icon_eco_beast_6000_mid.jpg');
+			var allInOneInverterImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'inverter_all_in_one_20240614.png' : 'inverter_all_in_one_20240614_mid.png');
+			var trip12KInverterImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_inverter_trip.png' : 'icon_inverter_trip_mid.png');
+
+			var gen3_6kImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_gen_3_6k.png' : 'icon_gen_3_6k_mid.png');
+			var gen7_10kImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_gen_7_10k.png' : 'icon_gen_7_10k_mid.png');
+			var sna12kEuImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_sna_12k_eu.png' : 'icon_sna_12k_eu_mid.png');
+			var sna12kUsImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_sna_12k_us.png' : 'icon_sna_12k_us_mid.png');
+
+			var type6_8_10k_euImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_type6_8_10k_eu.png' : 'icon_type6_8_10k_eu_mid.png');
+			var type6_12k_euImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_type6_12k_eu.png' : 'icon_type6_12k_eu_mid.png');
+			var type6_8_10k_usImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_type6_8_10k_us.png' : 'icon_type6_8_10k_us_mid.png');
+			var type6_12k_usImagePath = monitorDirPath + ((platform == 'LUX_POWER' || hasCustomPlatformImg) ? 'icon_type6_12k_us.png' : 'icon_type6_12k_us_mid.png');
+
+			parallelInverterImgPath = monitorDirPath + 'icon_inverter_parallel.jpg';
+			let notAcEssSrc = ''
+			if (false) {
+				if (false) {
+					notAcEssSrc = "icon_inverter.png"
+				}
+				if (true) {
+					notAcEssSrc = "icon_inverter_mid.png"
+				}
+			} else {
+				notAcEssSrc = "icon_inverter.png"
+			}
+
+			if (currentDeviceType == 2) {
+				inverterImgSrc = resourceBaseUrl + acChargerImagePath;
+			} else {
+				if (currentDeviceType == 3) {
+					if(isSna6kUsAio()) {
+						inverterImgSrc = resourceBaseUrl + sna6000UsAioImagePath;
+					} else if(isEcoBeast6k()){
+						inverterImgSrc = resourceBaseUrl + ecoBeast6000ImagePath;
+					} else if (currentSubDeviceType == 131) {
+						inverterImgSrc = resourceBaseUrl + offGridUsInverterImagePath;
+					} else {
+						inverterImgSrc = resourceBaseUrl + offGridInverterImagePath;
+					}
+				} else if (currentDeviceType == 11) {
+					if (currentSubDeviceType == 1111) {
+						inverterImgSrc = resourceBaseUrl + sna12kUsImagePath;
+					} else {
+						inverterImgSrc = resourceBaseUrl + sna12kEuImagePath;
+					}
+				} else if (currentDeviceType == 6) {
+					if(currentMachineType == 1) {
+						inverterImgSrc = resourceBaseUrl + minusFlexBossImagePath;
+					} else {
+						if (currentSubDeviceType == 161) {
+							inverterImgSrc = resourceBaseUrl + type6_8_10k_euImagePath;
+						} else if (currentSubDeviceType == 162) {
+							inverterImgSrc = resourceBaseUrl + type6_12k_euImagePath;
+						} else if (currentSubDeviceType == 163) {
+							inverterImgSrc = resourceBaseUrl + type6_8_10k_usImagePath;
+						} else if (currentSubDeviceType == 164) {
+							inverterImgSrc = resourceBaseUrl + type6_12k_usImagePath;
+						} else {
+							inverterImgSrc = resourceBaseUrl + monitorDirPath + notAcEssSrc;
+						}
+					}
+				} else if (currentDeviceType == 7) {
+					inverterImgSrc = resourceBaseUrl + allInOneInverterImagePath;
+				} else if (currentDeviceType == 8) {
+					inverterImgSrc = resourceBaseUrl + gen7_10kImagePath;
+				} else if (currentDeviceType == 10) {
+					inverterImgSrc = resourceBaseUrl + gen3_6kImagePath;
+				} else if (currentPhase == 3 && currentDeviceType == 0) {
+					inverterImgSrc = resourceBaseUrl + trip12KInverterImagePath;
+				} else {
+					inverterImgSrc = resourceBaseUrl + monitorDirPath + notAcEssSrc;
+				}
+			}
+		}
+		if(!selectPlantId) {
+			$('#favoriteBtn').hide()
+		} else {
+			$('#favoriteBtn').show()
+		}
+		onDeviceChanged(serialNum);					//Custom method implements by page
+	}
+
+	function isSnaSeries() {
+		return (currentDeviceType == 3 || currentDeviceType == 11);
+	}
+
+	function isHybird() {
+		return currentDeviceType == 0 && currentPhase != 3;
+	}
+
+	function isSplitPhaseOffGrid() {
+		return isSnaSeries() && currentDtc == 1;
+	}
+
+	function isEcoBeast6k() {
+		return currentDeviceType == '3' && !(currentDtc == 1) && currentMachineType == 4;
+	}
+
+	function isSna6kUsAio() {
+		return currentDeviceType == '3' && currentDtc == 1 && currentMachineType == 4;
+	}
+	function checkType6Series() {
+		return (currentDeviceType == 6 || currentDeviceType == 7 || currentDeviceType == 8 || currentDeviceType == 10 || (currentDeviceType == 0 && currentPhase == 3));
+	}
+	
+	function checkHybridFirmware20240811() {
+		if (currentDeviceType == 0 && currentPhase != 3) {		//Hybrid
+			if(((currentStandard == 'AAAA' || currentStandard == 'aAAA') && currentSlaveVersion >= 0x24 && currentFwVersion >= 0x20)
+					|| ((currentStandard == 'AAAB' || currentStandard == 'aAAB') && currentSlaveVersion >= 0x1D && currentFwVersion >= 0x1A)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function checkShowPv3ViewByDevice() {
+		if (currentDeviceType == 7) {			//All-In-One...
+			return true;
+		}
+		if (currentPhase == 3 && currentDeviceType == 0 && currentPowerRating >= 3) {		//12K Trip...
+			return true;
+		}
+		if (currentDeviceType == 6) {			//6-12K
+			if (currentPowerRating == 3 || currentPowerRating == 6 || currentPowerRating == 8 || currentPowerRating == 9) {
+				return true;
+			}
+			if (currentModuleInverterSn && currentModuleInverterSn.substring(4, 6) == '54') {
+				return true;
+			}
+			if (currentModuleInverterSn && (currentModuleInverterSn.startsWith('2134') || currentModuleInverterSn.startsWith('2184') || currentModuleInverterSn.startsWith('2044'))) {
+				return true;
+			}
+		}
+		return false;
+	}
+</script>
+
+				
+				<div id="singleParallelNavTabs" class="btn-group" data-toggle="buttons" style="display: none;">
+					<label id="singleRadioBtnLabel" class="btn btn-success btn-sm active">
+						<input type="radio" name="single" id="singleRadioBtn" autocomplete="off" checked> Single
+					</label>
+					<label id="parallelRadioBtnLabel" class="btn btn-success btn-sm">
+						<input type="radio" name="parallel" id="parallelRadioBtn" autocomplete="off"> Parallel
+					</label>
+				</div>
+			</div>
+
+			
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+			<div id="invEnergyInfoContainer" class="page-component" style="margin-top: 61px; margin-bottom: 15px;">
+				<div class="infoBlock" style="width: calc(25% - 15px); margin-right: 20px; padding: 0;">
+					<h5 id="yieldingEnergyTitle" class="monitorCellTitle" style="background-color: #63BFE6;">Solar Yield</h5>
+					<div id="pvInnerHolder1" onclick="javascript:pvHoldClick1();" style="padding: 0 5px 0 5px;">
+						<div class="infoBlockImgHolder">
+							
+							
+								<img class="infoBlockImg" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_solor_yielding.png" />
+							
+						</div>
+						<div class="infoTextBlock">
+							<p class="mainInfoText"><strong id="todayYieldingText" class="energyInfoDataText">--</strong> kWh</p>
+							<p class="tipInfoText">Yield Today</p>
+							<p class="mainInfoText"><strong id="totalYieldingText" class="energyInfoDataText">--</strong> kWh</p>
+							<p class="tipInfoText">Total Yield</p>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+					<div id="pvInnerHolder2" onclick="javascript:pvHoldClick2();" style="display: none;">
+						<div style="width: calc(100% - 130.8px); margin-left: 10px; float: left; margin-top: 5px;">
+							<p style="color: #FF718F;"><span id="pvLoadTodaySpan" class="energyInfoDataText"></span> Load Today</p>
+							<p style="color: #5CC9A0;"><span id="pvChargeTodaySpan" class="energyInfoDataText"></span> Charge Today</p>
+							<p style="color: #F2A474;"><span id="pvExportTodaySpan" class="energyInfoDataText"></span> Export Today</p>
+							<p style="margin-bottom: 0;"><strong>Today</strong> <strong id="dailyAllPvEnergyText" class="energyInfoDataText">--</strong></p>
+						</div>
+						<div id="pvDailyPieChartContainer" style="width: 120.8px; height: 120.8px; float: left; position: relative;"></div>
+					</div>
+					<div id="pvInnerHolder3" onclick="javascript:pvHoldClick3();" style="display: none;">
+						<div style="width: calc(100% - 130.8px); margin-left: 10px; float: left; margin-top: 5px;">
+							<p style="color: #FF718F;"><span id="pvLoadTotalSpan" class="energyInfoDataText"></span> Load Total</p>
+							<p style="color: #5CC9A0;"><span id="pvChargeTotalSpan" class="energyInfoDataText"></span> Charge Total</p>
+							<p style="color: #F2A474;"><span id="pvExportTotalSpan" class="energyInfoDataText"></span> Export Total</p>
+							<p style="margin-bottom: 0;"><strong>Total</strong> <strong id="totalAllPvEnergyText" class="energyInfoDataText">--</strong></p>
+						</div>
+						<div id="pvTotalPieChartContainer" style="width: 120.8px; height: 120.8px; float: left; position: relative;"></div>
+					</div>
+				</div>
+				
+				
+				
+					<div class="infoBlock" style="width: calc(25% - 15px); margin-right: 20px; padding: 0;">
+						<h5 id="batteryDischargeLabel" class="monitorCellTitle" style="background-color: #F087A0;">Battery Discharge</h5>
+						<h5 id="batteryChargeLabel" class="monitorCellTitle" style="background-color: #F087A0; display: none;">Battery Charge</h5>
+						<div onclick="javascript:batteryHoldClick();" style="padding: 0 5px 5px 5px;">
+							<div class="infoBlockImgHolder">
+								
+								
+									<img class="infoBlockImg" id="customBatteryEnergyIcon" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_battery_discharging.png" />
+								
+							</div>
+							<div id="batteryDischargeHolder" class="infoTextBlock">
+								<p class="mainInfoText"><strong id="todayDischargingText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Discharged Today</p>
+								<p class="mainInfoText"><strong id="totalDischargingText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Total Discharged</p>
+							</div>
+							<div id="batteryChargeHolder" class="infoTextBlock" style="display: none;">
+								<p class="mainInfoText"><strong id="todayChargingText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Charged Today</p>
+								<p class="mainInfoText"><strong id="totalChargingText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Total Charged</p>
+							</div>
+						</div>
+					</div>
+				
+				
+				
+					<div id="importExportEnergyHolder" class="infoBlock" style="width: calc(25% - 15px); margin-right: 20px; padding: 0;">
+						<h5 id="exportHolderLabel" class="monitorCellTitle" style="background-color: #F09C6B;">Feed-in Energy</h5>
+						<h5 id="importHolderLabel" class="monitorCellTitle" style="background-color: #F09C6B; display: none;">Import</h5>
+						<div id="importExportHolder" onclick="javascript:importExportHoldClick();" style="padding: 0 5px 5px 5px;">
+							<div class="infoBlockImgHolder">
+								
+								
+									<img class="infoBlockImg luxpower" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_feed_in_energy.png" />
+								
+							</div>
+							<div id="exportHolder" class="infoTextBlock">
+								<p class="mainInfoText"><strong id="todayExportText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Today Export</p>
+								<p class="mainInfoText"><strong id="totalExportText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Total Export</p>
+							</div>
+							<div id="importHolder" class="infoTextBlock" style="display: none;">
+								<p class="mainInfoText"><strong id="todayImportText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Today Import</p>
+								<p class="mainInfoText"><strong id="totalImportText" class="energyInfoDataText">--</strong> kWh</p>
+								<p class="tipInfoText">Total Import</p>
+							</div>
+						</div>
+					</div>
+				
+				
+				<div class="infoBlock" style="width: calc(25% - 15px); padding: 0;">
+					<h5 id="consumptionHolderLabel" class="monitorCellTitle" style="background-color: #57C696;">Consumption</h5>
+					<div style="padding: 0 5px 5px 5px;">
+						<div class="infoBlockImgHolder">
+							
+							
+								<img class="infoBlockImg" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_consumption.png" />
+							
+						</div>
+						<div class="infoTextBlock">
+							<p class="mainInfoText"><strong id="todayUsageText" class="energyInfoDataText">--</strong> kWh</p>
+							<p class="tipInfoText">Today Usage</p>
+							<p class="mainInfoText"><strong id="totalUsageText" class="energyInfoDataText">--</strong> kWh</p>
+							<p class="tipInfoText">Total Usage</p>
+						</div>
+					</div>
+				</div>
+				
+				<div style="clear: both;"></div>
+			</div>
+
+		    
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+    .noticeBox {
+        height: 48px;
+        width: 100%;
+        background: #fff;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+    .noticeIconBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        margin-right: 8px;
+        height: 24px;
+        border-radius: 4px;
+    }
+    .carousel {
+        overflow: hidden;
+        position: relative;
+        height: 24px; /* 设置轮播的高度 */
+        line-height: 24px;
+    }
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-break: break-word;
+        cursor: pointer;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<div class="noticeBox">
+    <div class="noticeIconBox btn-success">
+        <img src="https://resource.solarcloudsystem.com/WManage/web/img/format/icons/notice.svg?v=2.2.6.6" height="14" />
+    </div>
+    <div style="width: calc(100% - 32px);">
+        <div id="carousel" class="carousel">
+        </div>
+    </div>
+</div>
+
+<div id="noticeModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Notice Detail</h4>
+            </div>
+            <div class="modal-body form-horizontal" style="max-height: 560px; overflow-y: auto;">
+                <div class="form-group has-feedback nameHolder" id="versionCodeHolder">
+                    <label for="versionCode" class="col-sm-4 control-label">Version Code:</label>
+                    <div class="col-sm-7">
+                        <div style="margin-top: 6px;" id="versionCode"></div>
+                    </div>
+                </div>
+                <div class="form-group has-feedback nameHolder">
+                    <label for="publishTme" class="col-sm-4 control-label">Time:</label>
+                    <div class="col-sm-7">
+                        <div style="margin-top: 6px;" id="publishTme"></div>
+                    </div>
+                </div>
+                <div class="form-group has-feedback nameHolder">
+                    <label for="noticeContent" class="col-sm-4 control-label">Notice Content:</label>
+                    <div class="col-sm-7">
+                        <div style="margin-top: 6px;word-break: break-word;" id="noticeContent"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script language="JavaScript">
+    $(document).ready(function() {
+        getNoticeList()
+    });
+
+    function getNoticeList() {
+        $.post(baseUrl + '/web/maintain/notification/showList', {deviceType: currentDeviceType,page: 1,rows: 999 }, function(response) {
+            let content = ''
+            if(response.success) {
+                response.rows.forEach((item, index) => {
+                    if(index == 0) {
+                        content += '<div class="slide" onclick="openDialog(' + JSON.stringify(item).replace(/\"/g,"'") + ')">'+(item.versionCode?item.versionCode+'_':'')+moment(item.time).format('YYYY-MM-DD')+': '+item.notification+'</div>'
+                    } else {
+                        content += '<div class="slide" onclick="openDialog(' + JSON.stringify(item).replace(/\"/g,"'") + ')" style="transform: translateY(100%);">'+(item.versionCode?item.versionCode+'_':'')+moment(item.time).format('YYYY-MM-DD')+': '+item.notification+'</div>'
+                    }
+                })
+                if(!content) {
+                    $('.noticeBox'). hide()
+                } else {
+                    $('#carousel').append(content)
+                }
+                initSlide()
+            } else {
+                $('.noticeBox'). hide()
+            }
+        }, 'json');
+    }
+
+    function initSlide() {
+        var $carousel = $('#carousel');
+        var $slides = $carousel.find('.slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 2000); // 每3秒滚动到下一张图片
+
+        function nextSlide() {
+            var nextSlide = (currentSlide + 1) % $slides.length;
+            $slides.eq(currentSlide).css('transform', 'translateY(100%)');
+            $slides.eq(nextSlide).css('transform', 'translateY(0)');
+            currentSlide = nextSlide;
+        }
+
+        $carousel.hover(function() {
+            clearInterval(slideInterval);
+        }, function() {
+            slideInterval = setInterval(nextSlide, 3000);
+        });
+    }
+
+    function openDialog(item) {
+        if(item.versionCode) {
+            $('#versionCodeHolder').show()
+            $('#versionCode').text(item.versionCode)
+        } else {
+            $('#versionCodeHolder').hide()
+        }
+        $('#publishTme').text(moment(item.time).format('YYYY-MM-DD'))
+        $('#noticeContent').text(item.notification)
+        $('#noticeModal').modal();
+    }
+</script>
+
+			<div id="inverterFlowContainer" class="page-component" style="background-color: white; margin-bottom: 15px;">
+				
+				
+						
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+				<div id="monitorHolder" class="flowChartHolder" style="padding: 15px; width: 75%; margin-left: 12.5%; height: 500px; float: left;">
+					<h4 id="monitorHolderTitle" style="font-weight: bold; color: #525c65; margin-top: 0; margin-left: -16.6%;">System Information <span id="localTimeLabel"></span> <span id="infoListLabel">Low Voltage Protection</span></h4>
+
+					<button id="autoParallelButton" title="Parallel sync will sync the data between all paralleled inverters to be displayed on this page" style="display: none; position: absolute; z-index: 10000;" class="btn btn-success btn-sm" data-loading-text="Parallel Inverters&hellip;">
+						Parallel Sync
+					</button>
+
+					<h4 id="noPrimaryH4" class="alert alert-danger" style="font-weight: bold; float: left; margin: 5px 0 0 -16.6%; display: none;">
+						
+							No valid master device
+						
+						
+					</h4>
+
+					<div class="flowChartHolder" style="position: relative; height: 456px;">
+						
+						
+							<div class="monitorTextHolder" style="top: 161px; left: -45px;">
+						
+							<p class="monitorText"><strong class="batteryPowerText monitorDataText">--</strong> W</p>
+							<p class="batteryPowerLabel tipMonitorText" style="display: none;">Battery Power</p>
+						</div>
+
+						
+						
+							<div class="monitorTextHolder" style="top: 193px; left: -45px;">
+						
+							<p class="monitorText socHolder"><strong class="socText monitorDataText">--</strong>%</p>
+							<p id="socLabel" class="tipMonitorText" style="display: none;">Battery Level(SOC)</p>
+						</div>
+						
+							<div class="monitorTextHolder vbatHolder" style="top: 225px; left: -45px;">
+								<p class="monitorText"><strong class="vbatText monitorDataText">--</strong> Vdc</p>
+							</div>
+							<div id="maxCurrHolder" class="monitorTextHolder" style="top: 265px; left: -45px; display: none;">
+								<p class="monitorText" style="font-size: 13px;">BMS Limit Charge: <strong class="maxChgCurrText monitorDataText" style="font-size: 13px;">--</strong> A</p>
+								<p class="monitorText" style="font-size: 13px;">BMS Limit Discharge: <strong class="maxDischgCurrText monitorDataText" style="font-size: 13px;">--</strong> A</p>
+								<p class="monitorText showBmsChargeStatus" onclick="showBmsChargeStatus('DONT_CHARGE')" style="font-size: 13px;">BMS Charge:
+									<strong class="bmsChargeText monitorDataText" style="font-size: 13px;">--</strong>
+									
+								</p>
+								<p class="monitorText showBmsChargeStatus" onclick="showBmsChargeStatus('DONT_DISCHARGE')" style="font-size: 13px;">BMS Discharge:
+									<strong class="bmsDischargeText monitorDataText" style="font-size: 13px;">--</strong>
+									
+								</p>
+								<p class="monitorText" style="font-size: 13px;">BMS Force Charge: <strong class="bmsForceChargeText monitorDataText" style="font-size: 13px;">--</strong></p>
+								
+							</div>
+							<div id="batteryCapacityHolder" class="monitorTextHolder" style="top: 265px; left: -45px; display: none;">
+								<p class="monitorText" style="font-size: 13px;">Lead-acid battery: <strong class="batteryCapacityText monitorDataText" style="font-size: 13px;">--</strong> Ah</p>
+							</div>
+						
+
+						<div class="monitorTextHolder pvTextHolder parallelHide" style="top: 0; display: none;">
+							<p class="monitorText">PV1 <strong class="pv1PowerText monitorDataText hMonitorData">--</strong> W <strong class="vpv1Text monitorDataText hMonitorData">--</strong> V</p>
+							<p class="monitorText">PV2 <strong class="pv2PowerText monitorDataText hMonitorData">--</strong> W <strong class="vpv2Text monitorDataText hMonitorData">--</strong> V</p>
+							<p class="monitorText type6_9PvShow">PV3 <strong class="pv3PowerText monitorDataText hMonitorData">--</strong> W <strong class="vpv3Text monitorDataText hMonitorData">--</strong> V</p>
+						</div>
+						<div class="monitorTextHolder pvParallelTextHolder parallelShow" style="top: 10px; display: none;">
+							<p class="monitorText"><strong style="width:auto;" class="pvParallelPowerText monitorDataText hMonitorData">--</strong> W</p>
+						</div>
+
+						<div class="monitorTextHolder gridTextHolder parallelHide" style="top: 173px;">
+							<p class="monitorText"><strong class="gridPowerText monitorDataText">--</strong> W</p>
+							<p class="importPowerLabel tipMonitorText" style="display: none;">Import Power</p>
+							<p class="exportPowerLabel tipMonitorText" style="display: none;">Export Power</p>
+						</div>
+
+						<div class="monitorTextHolder phase1ParallelGridTextHolder" style="top: 131px; display: none;">
+							<p class="monitorText"><strong class="phase1VacText monitorDataText">--</strong> Vac&nbsp;&nbsp; <strong class="phase1FacText monitorDataText">--</strong> Hz&nbsp;&nbsp; <strong class="phase1PacText monitorDataText">--</strong> W</p>
+						</div>
+						<div class="monitorTextHolder phase3ParallelGridTextHolder" style="top: 58px; display: none;cursor: pointer;">
+							<p class="monitorText"><strong class="phase3VacrText monitorDataText">--</strong> Vac&nbsp;&nbsp; <strong class="phase3FacrText monitorDataText">--</strong> Hz&nbsp;&nbsp; <span class="phase3PacDataDetail" style="display: none;"><strong class="phase3PacrText phase3PacDataHolder monitorDataText">--</strong><span class="phase3PacDataHolder"> W</span><span class="phase3PacrDirText phase3PacDataHolder"></span></span></p>
+							<p class="monitorText phase3VacsTextHolder"><strong class="phase3VacsText monitorDataText">--</strong> Vac&nbsp;&nbsp; <strong class="phase3FacsText monitorDataText">--</strong> Hz&nbsp;&nbsp; <span class="phase3PacDataDetail" style="display: none;"><strong class="phase3PacsText phase3PacDataHolder monitorDataText">--</strong><span class="phase3PacDataHolder"> W</span><span class="phase3PacsDirText phase3PacDataHolder"></span></span></p>
+							<p class="monitorText phase3VactTextHolder"><strong class="phase3VactText monitorDataText">--</strong> Vac&nbsp;&nbsp; <strong class="phase3FactText monitorDataText">--</strong> Hz&nbsp;&nbsp; <span class="phase3PacDataDetail" style="display: none;"><strong class="phase3PactText phase3PacDataHolder monitorDataText">--</strong><span class="phase3PacDataHolder"> W</span><span class="phase3PactDirText phase3PacDataHolder"></span></span></p>
+						    <p style="font-size:18px;color:#525c65;"><strong class="phase3PacTotalDataHolder monitorText"></strong><strong class="phase3PacDataTotal monitorDataText" style="font-size: 22px;">--</strong> W&nbsp;&nbsp; </p>
+						</div>
+
+						
+							<div class="monitorTextHolder vacTextHolder parallelHide" style="top: 200px;">
+								<p class="monitorText"><strong class="vacText monitorDataText">--</strong> Vac</p>
+							</div>
+							<div class="monitorTextHolder facTextHolder parallelHide" style="top: 227px;">
+								<p class="monitorText"><strong class="facText monitorDataText">--</strong> Hz</p>
+							</div>
+						
+						<div class="monitorTextHolder genDryContactTextHolder parallelHide" style="top: 265px; display: none;">
+							<p class="monitorText" style="font-size: 13px;">GEN Dry Contact: <span class="genDryContactText">--</span></p>
+						</div>
+
+						<div class="monitorTextHolder consumptionPhase3TextHolder" style="bottom: 79px; display: none;">
+							<p class="monitorText"><strong class="consumptionPowerrText monitorDataText">--</strong> W</p>
+							<p class="monitorText"><strong class="consumptionPowersText monitorDataText">--</strong> W</p>
+						</div>
+						<div class="monitorTextHolder consumptionPhase3SingleTextHolder" style="bottom: 79px;left: 665px; display: none;">
+							<p class="monitorText">R: <strong class="consumptionPowerRText monitorDataText">--</strong> W</p>
+							<p class="monitorText">S: <strong class="consumptionPowerSText monitorDataText">--</strong> W</p>
+							<p class="monitorText">T: <strong class="consumptionPowerTText monitorDataText">--</strong> W</p>
+						</div>
+						<div class="monitorTextHolder consumptionTextHolder " style="bottom: 17px;">
+							<p class="monitorText consumptionPowerrTextHolder"><span class="consumptionPhase3SingleTextHolder" style="display: none;">Total: </span><strong class="consumptionPowerText monitorDataText">--</strong> W</p>
+							<p class="tipMonitorText">Consumption Power</p>
+						</div>
+
+						<div class="monitorTextHolder epsTextHolder" style="bottom: 17px;">
+							<p class="standByLine monitorText" style="display: none;">StandBy</p>
+							<p class="epsPowerLine epsPowertLine monitorText" style="display: none;"><strong class="epsPowerText monitorDataText">--</strong> W</p>
+							<p class="tipMonitorText">Backup Power(EPS)</p>
+						</div>
+						<div class="monitorTextHolder epsPhase3TextHolder" style="bottom: 79px; display: none;">
+							<p class="epsPowerLine monitorText" style="display: none;">
+								<span><strong class="epsPowerrText monitorDataText">--</strong> W</span><br/>
+								<span><strong class="epsPowersText monitorDataText">--</strong> W</span>
+							</p>
+						</div>
+
+						<div class="monitorTextHolder epsLnTextHolder" style="bottom: 79px; display: none;">
+							<p class="monitorText" style="font-size: 15px;"><span style="color: #a6b7bf;">EPS L1N: </span><strong class="epsL1nText monitorDataText">--</strong> W</p>
+							<p class="monitorText" style="font-size: 15px;"><span style="color: #a6b7bf;">EPS L2N: </span><strong class="epsL2nText monitorDataText">--</strong> W</p>
+						</div>
+
+						
+
+						<div id="autoScrollContainer" class="epsOverloadRecoveryTimeHolder statusTextHolder" style="position: absolute; top: -20px; display: none; min-width: 250px; height: 20px; overflow: hidden">
+
+							<p class="warning_color"  style="margin-bottom: 0; line-height: 20px;">EPS overload recovery time at overload <span></span></p>
+						</div>
+
+						<div class="monitorTextHolder statusTextHolder" style="top: 16px;">
+							<img class="statusImg" height="32" onclick="clickStatusImg(this)" />
+							<button id="refreshSingleButton" class="btn btn-default btn-sm fa fa-refresh" style="margin-left: 150px; height: 32px;"></button>
+						</div>
+
+						<div class="monitorTextHolder genQuickStartBtnHolder" style="bottom: 75px; display: none;">
+							<button id="genQuickStartButton" class="btn btn-success btn-sm" title="Generator exercise for 20min" data-loading-text="Start GEN Exercise&hellip;">Start GEN Exercise</button>
+								<p class="warning_color" style="margin-bottom: 5px; line-height: 20px; margin-left: 10px;">Generator auto-stop in <span></span></p>
+								<button id="genQuickStopButton" class="btn btn-warning btn-sm" data-loading-text="Stop GEN Exercise&hellip;">Stop GEN Exercise</button>
+						</div>
+
+						<div class="monitorTextHolder ctrlBtnHolder" style="bottom: 40px; display: none;">
+							<button id="startQuickChargeButton" class="btn btn-success btn-sm" title="Quick charge for 1hr from grid" data-loading-text="Start Quick Charge&hellip;">Start Quick Charge</button>
+							<button id="stopQuickChargeButton" class="btn btn-warning btn-sm" data-loading-text="Stop Quick Charge&hellip;">Stop Quick Charge</button>
+						</div>
+
+						<div class="monitorTextHolder batteryBackupModeBtnHolder" style="bottom: 5px; display: none;">
+							<button id="startBatteryBackupButton" class="btn btn-success btn-sm" title="When Enabled, the batteries will stay at the appointed SOC (default 100% SOC) unless they are the only power source available" data-loading-text="Start Battery Backup&hellip;">Start Battery Backup</button>
+							<button id="stopBatteryBackupButton" class="btn btn-warning btn-sm" data-loading-text="Stop Battery Backup&hellip;">Stop Battery Backup</button>
+						</div>
+
+						<div class="monitorTextHolder acPvTextHolder" style="top: 8px; display: none;">
+							<p class="monitorText"><strong class="acPvPowerText monitorDataText">--</strong> W</p>
+							<p class="tipMonitorText">PV Power</p>
+						</div>
+						<div class="monitorTextHolder _12kAcPvTextHolder" style="top: 16px; display: none;">
+							<p class="monitorText" style="width: 100px; text-align: end;"><strong class="_12kAcPvPowerText monitorDataText">--</strong> W</p>
+						</div>
+						<div class="monitorTextHolder trip12kAcPvTextHolder" style="top: -14px; display: none;">
+							<p class="monitorText" style="width: 100px; text-align: end;"><strong class="trip12kAcPvPowerrText monitorDataText">--</strong> W</p>
+							<p class="monitorText" style="width: 100px; text-align: end;"><strong class="trip12kAcPvPowersText monitorDataText">--</strong> W</p>
+							<p class="monitorText" style="width: 100px; text-align: end;"><strong class="trip12kAcPvPowertText monitorDataText">--</strong> W</p>
+						</div>
+
+						
+						
+							<img class="acPvImg" style="top: -9px; display: none;" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_ac_pv.png" />
+						
+
+						
+						
+							<img class="acPvArrowImg monitorArrayImg" style="top: 85px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+							<img class="acPvArrowImg monitorArrayImg" style="top: 135px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+						
+
+						
+						
+							<img class="pvImg" style="top: -9px; display: none;" width="84" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_solor_yielding.png" />
+							<img class="batteryImg" style="top: 172px; left: 40px; cursor: pointer;" width="84" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_battery_0_green.png" />
+							<img class="gridImg" style="top: 172px;" width="84" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_grid.png"
+								imgDirPath="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/" />
+						
+
+						
+						
+							<img class="inverterImg" style="top: 166px;" width="96" height="96" notAcEssSrc="icon_inverter.png" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/deviceIcon/icon_inverter.png" />
+						
+
+						
+						
+							<img class="epsImg" style="bottom: 15px;" width="84" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_eps.png" />
+						
+
+						
+						
+							<img class="consumptionImg" style="bottom: 15px;" width="84" height="84" src="https://resource.solarcloudsystem.com/WManage/web/platform/EG4/img/monitor/plant/icon_consumption.png" />
+						
+
+						
+						
+							<img class="pvArrowImg monitorArrayImg" style="top: 73px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+							<img class="epsArrowImg monitorArrayImg" style="top: 273px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+
+							<img class="loadArrowImg monitorArrayImg" style="top: 236px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+							<img class="loadArrowImg monitorArrayImg" style="top: 281px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_down.gif" />
+
+							<img class="batteryArrowImg monitorArrayImg" style="display: none; top: 206px; left: 118px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />
+						
+
+						<script language="JavaScript">
+							if(screen.width > 799.99) {
+								
+								
+									document.write('<img class="batteryArrowImg monitorArrayImg" style="display: none; top: 206px; left: 198px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />');
+								
+							}
+						</script>
+
+						
+						
+							<img class="inverterArrayImg inverterArrayImg1 monitorArrayImg" style="top: 206px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />
+							<img class="inverterArrayImg inverterArrayImg2 monitorArrayImg" style="top: 206px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />
+						
+						<script language="JavaScript">
+							if(screen.width > 799.99) {
+								
+								
+									document.write('<img class="inverterArrayImg inverterArrayImg3 monitorArrayImg" style="top: 206px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />');
+								
+							}
+						</script>
+
+						
+						
+							<img class="gridArrayImg gridArrayImg1 monitorArrayImg" style="top: 206px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />
+						
+						<script language="JavaScript">
+							if(screen.width > 799.99) {
+								
+								
+									document.write('<img class="gridArrayImg gridArrayImg2 monitorArrayImg" style="top: 206px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/arrow/_arrow_right.gif" />');
+								
+							}
+						</script>
+					</div>
+				</div>
+
+				
+
+				
+					
+
+					<!-- <div id="mapContainer" style="height: 235px; border-bottom: 1px solid #CCC; background: url(../img/monitor/plant/plant_logo.png); background-size: cover;"></div> -->
+					<!-- <div id="mapContainer" style="height: 200px; border-bottom: 1px solid #CCC;"></div> -->
+
+					
+				
+
+				<div style="clear: both;"></div>
+				
+			</div>
+
+			
+
+			<div id="parallelDeviceTableHolder" class="page-component" style="background-color: white; margin-bottom: 15px; display: none;">
+				<table class="table table-hover">
+					<thead><tr>
+						<th>SN</th>
+						<th>Vpv1</th>
+						<th>Ppv1</th>
+						<th>Vpv2</th>
+						<th>Ppv2</th>
+						<th class="_12KParallelPv3Column">Vpv3</th>
+						<th class="_12KParallelPv3Column">Ppv3</th>
+						<th>SOC</th>
+						<th>Vbat</th>
+						<th>Pcharge</th>
+						<th>Pdischarge</th>
+						<th>Peps</th>
+						<th>Pnum</th>
+						<th>Role</th>
+        			</tr></thead>
+        			<tbody>
+					</tbody>
+				</table>
+			</div>
+
+			
+
+			
+
+			<div id="outsideDeviceDetail" style="margin-bottom: 15px; color: #717171; background: #fff;display: flex;">
+				
+				
+			</div>
+
+			<div id="lineChartComponent" class="page-component" style="margin-bottom: 15px; color: #717171;">
+				<div id="lineChartContent" style="position: relative; padding: 5px; width: calc(75% - 12px); margin-right: 15px; height: 400px; float: left; background-color: white;">
+					<div id="powerLineMenuContent" class="menuContentHolder" style="position: absolute; top: 40px; left: 15px; z-index: 999; display: flex;">
+						<div class="menuContent btn-group" style="margin-left: 0;">
+							<button type="button" class="btn btn-default" onclick="changeLineChartDate(-1)" style="height: 30px; border-top-left-radius: 4px; border-bottom-left-radius: 4px;">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</button>
+							<input type="text" class="form-control input-sm dateInput" readonly="readonly" id="dayLineChartDate" data-date-format="YYYY-MM-DD" autocomplete="off" />
+							<button type="button" class="btn btn-default" onclick="changeLineChartDate(1)" style="height: 30px;">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</button>
+						</div>
+						
+						<button style="margin-left:10px;"  class="btn btn-success btn-sm" onclick="$('#lineChart').dialog('open')">Manage Columns</button>
+						<div class="chartDialog">
+							<div id="lineChart" class="easyui-window" data-options="title:'Input&Output Power',inline:true,closed:true,iconCls:'icon-save'" style="width:580px;padding:10px;overflow-y: auto;">
+								<div class="checkBox">
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="lineChartGroup" value="lineSolarPV" id="lineSolarPV" checked><label for="lineSolarPV" class="SolarPV">Solar PV</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="lineChartGroup" value="lineBattery" id="lineBattery" checked><label for="lineBattery" class="Battery">Battery</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="lineChartGroup" value="lineGrid" id="lineGrid" checked><label for="lineGrid" class="Grid">Grid</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" disabled class="checkbox" name="lineChartGroup" value="lineConsumption" id="lineConsumption" checked><label for="lineConsumption" class="Consumption">Consumption</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="lineChartGroup" value="lineSOC" id="lineSOC" checked><label for="lineSOC" class="SOC">SOC</label>
+									</div>
+									<div class="checkBoxItem" id="acCoupleLineBox">
+										<input type="checkbox" class="checkbox" name="lineChartGroup" value="lineAcCouple" id="lineAcCouple"><label for="lineAcCouple" class="ACCouple">AC Couple</label>
+									</div>
+								</div>
+								<div class="setBtn">
+									<button class="btn btn-success btn-sm" onclick="settingLineChart()">Save</button>
+									<button class="btn btn-sm" onclick="$('#lineChart').dialog('close')">Cancel</button>
+								</div>
+							</div>
+						</div>
+
+						<button style="margin-left:10px;"  class="btn btn-success btn-sm" onclick="$('#colorBox').dialog('open')">Set Color</button>
+						<div class="colorDialog">
+							<div id="colorBox" class="easyui-window" data-options="title:'Set Color',inline:true,closed:true,iconCls:'icon-save'" style="width:580px;padding:10px;overflow-y: auto;">
+								<div class="checkBox">
+									<label><input id="STANDARD" type="radio" name="color" value="STANDARD" checked>Standard</label>
+									<label><input id="DARK" type="radio" name="color" value="DARK">Dark</label>
+									<label><input id="LIGHT" type="radio" name="color" value="LIGHT">Light</label>
+								</div>
+								<div class="setBtn">
+									<button class="btn btn-success btn-sm" onclick="settingColor()">Save</button>
+									<button class="btn btn-sm" onclick="$('#colorBox').dialog('close')">Cancel</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="iconBox">
+						<img id="enlargeChart" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/inverter/enlarge.png" />
+						<img id="narrowChart" style="display: none;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/inverter/narrow.png" />
+					</div>
+					<div id="powerLineHolder" style="height: 360px;width: calc(100% - 30px)"></div>
+				</div>
+				<div id="rightContent" style="float: left; height: 400px; width: calc(25% - 3px); color: #717171; background-color: white;">
+					<div id="noficeTableContainer" style="width: 100%; height: 160px;">
+						<table id="noficeTable" style="width:100%;height:100%" url="/WManage/web/maintain/notification/showList"
+								idField="recordId" fitColumns="true" singleSelect="true" nowrap="false">
+							<thead>
+								<tr>
+									<th field="notification" width="40">Notification</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div id="reductionContainer" style="height: 240px; padding: 15px;">
+						<h4 style="font-weight: bold; color: #525c65; margin-top: 0;">Other Revenue</h4>
+
+						<div style="background-color: #f5f5f5; border-radius: 10px;">
+							<div class="reductionImgHolder" style="float: left;">
+								
+								
+									<img height="72" style="margin-top: 4px;" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/icon_co2.png" />
+								
+							</div>
+							<div class="reductionTextHolder" style="float: left;">
+								<p class="monitorText" style="margin-bottom: 2px;"><strong id="totalCo2ReductionText" style="font-size: 22px;">-- kG</strong></p>
+								<p class="tipMonitorText">CO₂ Reduction</p>
+							</div>
+
+							<div style="clear: both;"></div>
+						</div>
+
+						<div style="background-color: #f5f5f5; border-radius: 10px; margin-top: 12px;">
+							<div class="reductionImgHolder" style="float: left; margin-top: 3px;">
+								
+								
+									<img height="72" src="https://resource.solarcloudsystem.com/WManage/web/img/monitor/plant/icon_coal.png" />
+								
+							</div>
+							<div class="reductionTextHolder" style="float: left;">
+								<p class="monitorText" style="margin-bottom: 2px;"><strong id="totalCoalReductionText" style="font-size: 22px;">-- kG</strong></p>
+								<p class="tipMonitorText">Coal Saving</p>
+							</div>
+
+							<div style="clear: both;"></div>
+						</div>
+					</div>
+				</div>
+
+				<div style="clear: both;"></div>
+			</div>
+
+			<div class="page-component" style="background-color: white; padding: 5px;">
+				<div id="chartContainer" style="width: 100%; position: relative;">
+					<div style="position: absolute; top: 0; right: 0; z-index: 999;">
+						<div class="menuContentHolder" style="height: 39px; padding-bottom: 5px; float: right;">
+							
+							<div id="plantMonthMenuContent" class="menuContent btn-group">
+								<button type="button" class="btn btn-sm btn-default" onclick="tabPlantChart.changeMonthColumnChartDate(-1)" style="height: 30px;">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</button>
+								<input type="text" class="form-control input-sm dateInput" readonly="readonly" id="plantMonthColumnChartDate" data-date-format="YYYY-MM" autocomplete="off" />
+								<button type="button" class="btn btn-sm btn-default" onclick="tabPlantChart.changeMonthColumnChartDate(1)" style="height: 30px;">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</button>
+							</div>
+
+							
+							<div id="plantYearMenuContent" class="menuContent btn-group" style="display: none">
+								<button type="button" class="btn btn-sm btn-default" onclick="tabPlantChart.changeYearColumnChartDate(-1)" style="height: 30px;">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</button>
+								<input type="text" class="form-control input-sm dateInput" readonly="readonly" id="plantYearColumnChartDate" data-date-format="YYYY" autocomplete="off" />
+								<button type="button" class="btn btn-sm btn-default" onclick="tabPlantChart.changeYearColumnChartDate(1)" style="height: 30px;">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</button>
+							</div>
+
+							
+							
+						</div>
+
+						<div class="btn-group" style="float: right;" data-toggle="buttons" id="plantChartRadioHolder">
+							<a style="float: left; font-size: 16px; display: inline-block; height: 30px; line-height: 30px; margin-right: 10px;" href="javascript:void();" title="This data is only recorded when the inverter is online">(?)</a>
+
+							<label id="monthButton" class="btn btn-sm btn-default active" chartHolder="plantMonthColumnHolder" timeRangeType="month" menuContentId="plantMonthMenuContent" axisTitleY="Month(kWh)">
+								<input type="radio">Month
+							</label>
+							<label id="yearButton" class="btn btn-sm btn-default" chartHolder="plantYearColumnHolder" timeRangeType="year" menuContentId="plantYearMenuContent" axisTitleY="Year(kWh)">
+								<input type="radio">Year
+							</label>
+							<label id="totalButton" class="btn btn-sm btn-default" chartHolder="plantTotalColumnHolder" timeRangeType="total" menuContentId="plantTotalMenuContent" axisTitleY="Total(kWh)">
+								<input type="radio">Total
+							</label>
+						</div>
+
+						
+						
+						<button onclick="$('#barChart').dialog('open')" style="margin-right: 12px;"  class="btn btn-success btn-sm">Manage Columns</button>
+						<div class="chartDialog chartDialogBar">
+							<div id="barChart" class="easyui-window" data-options="title:'Energy Overview',inline:true,closed:true,iconCls:'icon-save'" style="width:600px;padding:10px;overflow-y: auto;">
+								<div class="checkBox">
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barSolarProduction" id="barSolarProduction" checked><label class="SolarProduction" for="barSolarProduction">Solar Production</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barBattery" id="barBattery" checked><label class="Battery" for="barBattery">Battery Discharged</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barBattCharge" id="barBattCharge" checked><label class="BattCharge" for="barBattCharge">Battery Charged</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barExportToGrid" id="barExportToGrid" checked><label class="ExporttoGrid" for="barExportToGrid">Export to Grid</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barImportToUser" id="barImportToUser" checked><label class="ImporttoUser" for="barImportToUser">Import to User</label>
+									</div>
+									<div class="checkBoxItem">
+										<input type="checkbox" class="checkbox" disabled name="barChartGroup" value="barConsumption" id="barConsumption" checked><label class="Consumption" for="barConsumption">Consumption</label>
+									</div>
+									<div class="checkBoxItem" style="display: none;">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barAcCouple" id="barAcCouple"><label class="ACCouple" for="barAcCouple">AC couple/Generator</label>
+									</div>
+									<div class="checkBoxItem" style="display: none;">
+										<input type="checkbox" class="checkbox" name="barChartGroup" value="barNetEnergy" id="barNetEnergy"><label class="barNetEnergy" for="barNetEnergy">Net Energy</label>
+									</div>
+								</div>
+								<div class="setBtn">
+									<button class="btn btn-success btn-sm" onclick="settingBarChart()">Save</button>
+									<button class="btn btn-sm" onclick="$('#barChart').dialog('close')">Cancel</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="plantMonthColumnHolder" class="chartHolder"></div>
+
+					<div id="plantYearColumnHolder" class="chartHolder" style="display: none" notshow script="tabPlantChart.initYearColumnChart()"></div>
+
+					<div id="plantTotalColumnHolder" class="chartHolder" style="display: none" notshow script="tabPlantChart.initTotalColumnChart()"></div>
+				</div>
+			</div>
+
+			<div style="height: 96px; width: 100%;"></div>
+
+			
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+			
+			
+			
+			
+			
+			
+
+			
+
+		<!-- Page Content Part -->
+	</div>
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<div id="inputOutputPowerModal" class="modal fade" tabindex="-1" role="dialog" style="z-index: 1050;">
+    <div class="modal-dialog" style="width: 1200px; max-width: 1200px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Input&Output Power</h4>
+            </div>
+            <div class="modal-body form-horizontal">
+                <div id="inputOutputPowerTableContainer" class="singleDatagridTable" style="width:1200px; display:none;">
+                    <table id="inputOutputPowerTable" style="width:1160px;height:300px;" idField="serialNum" singleSelect="true"
+                           url="/WManage/api/analyze/chart/analyzeParallelChartData" fitColumns="true" loadMsg="Processing, please wait …">
+                        <thead>
+                        <tr>
+							<th field="serialNum" width="70">Serial number</th>
+							<th field="time" width="90">Time</th>
+                            <th field="ppv1" width="50">ppv1(W)</th>
+                            <th field="ppv2" width="50">ppv2(W)</th>
+                            <th field="ppv3" width="50">ppv3(W)</th>
+                            <th field="peps" width="50">peps(W)</th>
+                            <th field="pCharge" width="50">pCharge(W)</th>
+                            <th field="pDisCharge" width="50">pDisCharge(W)</th>
+                            <th field="pinv" width="50">pinv(W)</th>
+                            <th field="prec" width="50">prec(W)</th>
+                            <th field="pToGrid" width="50">pToGrid(W)</th>
+                            <th field="pToUser" width="50">pToUser(W)</th>
+                            <th field="pload170" width="50">pload170(W)</th>
+                            <th field="acCouplePower" width="50">acCouplePower(W)</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/lib/highcharts/highcharts_10_3_3.js"></script>
+
+	<script language="JavaScript">
+		Highcharts.setOptions({
+			credits: { enabled: false }
+		});
+	</script>
+
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/plugins/datepicker/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/lib/bootstrap/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+	
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/chartDialog.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/inverter_20240906.js?v=2.2.6.6"></script>
+	
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/modal/inverterModal.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/powerChart.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/tab_chart_month.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/tab_chart_year.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/tab_chart_total.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/chart_pv_daily_pie.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/chart_pv_total_pie.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/monitor/inverter/monitor_ctrls.js?v=2.2.6.6"></script>
+	
+	
+	
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/common/crypto-js.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/common/common.js?v=2.2.6.6"></script>
+	<script type="text/javascript" src="https://resource.solarcloudsystem.com/WManage/web/js/common/message.js?v=2.2.6.6"></script>
+	
+	
+	
+	<script type="text/javascript">
+		var sessionChartValue = JSON.parse(`{"records":{}}`).records
+		let isToLucChat = true
+		function toLuxChat(){
+			isToLucChat = !isToLucChat
+			if (!isToLucChat) {
+				setTimeout(function () {
+					$('[data-toggle="popover"]').popover('hide');
+				},4000)
+			}
+			return true
+		}
+
+		$(function(){
+			//进入首页默认显示Q&A提示4S
+			$('[data-toggle="popover"]').popover();
+			$('[data-toggle="popover"]').popover('show');
+			setTimeout(function () {
+				$('[data-toggle="popover"]').popover('hide');
+			},4000)
+
+			//滚动的时候不显示Q&A提示
+			$(window).scroll(function (e) {
+				let scrollTop = $(document).scrollTop()
+				$('[data-toggle="popover"]').popover('hide');
+			})
+		});
+	</script>
+</body>
+</html>
