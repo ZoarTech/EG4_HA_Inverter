@@ -1,0 +1,14 @@
+{
+  "domain": "eg4_monitor",
+  "name": "EG4 Monitor",
+  "codeowners": ["@your_github_username"],
+  "config_flow": true,
+  "documentation": "https://github.com/your_github_username/ha-eg4-monitor",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/your_github_username/ha-eg4-monitor/issues",
+  "version": "0.1.0",
+  "requirements": [
+    "aiohttp>=3.8.0",
+    "beautifulsoup4>=4.9.3"
+  ]
+}

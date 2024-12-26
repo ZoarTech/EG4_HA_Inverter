@@ -1,0 +1,50 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Connect to EG4",
+                "description": "Enter your EG4 Monitor credentials",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Configure EG4 Monitor Sensors",
+                "description": "Select which sensors to enable:",
+                "data": {
+                    "battery_soc": "Battery State of Charge",
+                    "battery_power": "Battery Power",
+                    "battery_voltage": "Battery Voltage",
+                    "solar_power": "Solar Power",
+                    "pv1_power": "PV1 Power",
+                    "pv2_power": "PV2 Power",
+                    "grid_power": "Grid Power",
+                    "grid_voltage": "Grid Voltage",
+                    "grid_frequency": "Grid Frequency",
+                    "load_power": "Load Power",
+                    "eps_power": "EPS Power",
+                    "eps_frequency": "EPS Frequency",
+                    "today_solar": "Today's Solar Generation",
+                    "today_grid_import": "Today's Grid Import",
+                    "today_grid_export": "Today's Grid Export",
+                    "total_solar": "Total Solar Generation",
+                    "total_grid_import": "Total Grid Import",
+                    "total_grid_export": "Total Grid Export"
+                }
+            }
+        }
+    }
+}
