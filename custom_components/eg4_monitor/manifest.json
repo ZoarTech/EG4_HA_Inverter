@@ -1,12 +1,12 @@
 {
   "domain": "eg4_monitor",
   "name": "EG4 Monitor",
-  "codeowners": ["@your_github_username"],
+  "codeowners": ["@ZoarTech"],
   "config_flow": true,
-  "documentation": "https://github.com/your_github_username/ha-eg4-monitor",
+  "documentation": "https://github.com/ZoarTech/EG4_HA_Inverter",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/your_github_username/ha-eg4-monitor/issues",
-  "version": "0.1.0",
+  "issue_tracker": "https://github.com/ZoarTech/EG4_HA_Inverter/issues",
+  "version": "1.0.0",
   "requirements": [
     "aiohttp>=3.8.0",
     "beautifulsoup4>=4.9.3"
