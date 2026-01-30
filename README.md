@@ -21,9 +21,21 @@ This is a custom Home Assistant integration for monitoring EG4 inverter systems.
 
 ## Quick Start
 
-1. Copy the `custom_components/eg4_monitor` directory to your Home Assistant's `custom_components` directory
-2. Restart Home Assistant
-3. Add the integration through the Home Assistant UI
+### Install via HACS (Recommended)
+
+1. Open HACS in Home Assistant
+2. Click "Integrations" → three dots menu (⋮) → "Custom repositories"
+3. Add `https://github.com/ZoarTech/EG4_HA_Inverter` as an "Integration"
+4. Search for "EG4 Monitor" and install it
+5. Restart Home Assistant
+6. Go to Settings → Integrations → Add Integration → "EG4 Monitor"
+
+### Manual Install
+
+1. Download the latest release from the [releases page](https://github.com/ZoarTech/EG4_HA_Inverter/releases)
+2. Copy `custom_components/eg4_monitor` to your Home Assistant's `custom_components` directory
+3. Restart Home Assistant
+4. Add the integration through the Home Assistant UI
 
 For detailed instructions, see our [Installation Guide](docs/installation.md).
 
